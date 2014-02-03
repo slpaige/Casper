@@ -338,7 +338,7 @@ margin on the iframe, cause it breaks stuff. */
    3. Utilities - These things get used a lot
    ========================================================================== */
 
-/* Clears shit */
+/* Clears things */
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -347,7 +347,7 @@ margin on the iframe, cause it breaks stuff. */
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-/* Hides shit */
+/* Hides things */
 .hidden {
     text-indent: -9999px;
     visibility: hidden;
@@ -967,7 +967,7 @@ margin on the iframe, cause it breaks stuff. */
 
     .post-content .full-img { 
         width: auto;
-        width: calc(100% + 32px); /* expand with to image + margins */
+        width: calc(100% + 32px); /* expand width to image + margins */
         margin: 0 -16px; /* get rid of margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
@@ -1016,5 +1016,5 @@ margin on the iframe, cause it breaks stuff. */
 
 /* ==========================================================================
    End of file. Media queries should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
+   below this point, or it will probably produce uwanted results.
    ========================================================================== */
